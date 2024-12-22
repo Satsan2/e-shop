@@ -170,32 +170,28 @@ body{
     flex-basis: 20%;
 }
 .contact{
+    margin: 50px;
+    padding: 10px;
     background: black;
     color: white;
-    padding: 50px;
-    width: 60%;
-    margin-left: 15%;
-    margin-top: 50px;
-  }
-  .contact input{
-    width: 80%;
-    height: 10%;
-  }
-  .contact-heading p input{
-    height: 20%;
-  }
-  .contact button{
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right:5px ;
-    padding-bottom: 5px;
-    border-radius: 10px;
-    border: none;
+    display: flex;
+    justify-content: center;
+}
+.contact button{
     background: blue;
     color: white;
-  }
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
 /* media Query */
 @media screen and (max-width:700px){
+    .contact{
+        justify-content: center;
+        align-items: center;
+    }
+ 
     .navbar-menu-toggle{
         display: block;
     }
