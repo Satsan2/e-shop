@@ -136,6 +136,64 @@ body{
     background:#1d232c;
     color: white;
 }
+.product-section{
+    margin-top: 20px;
+}
+.product-search{
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.product-search input{
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+.product-search input:focus{
+    outline: none;
+
+}
+.products{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.products-box{
+    text-align: center;
+    flex-basis: 20%;
+}
+.contact{
+    background: black;
+    color: white;
+    padding: 50px;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 50px;
+  }
+  .contact input{
+    width: 80%;
+    height: 10%;
+  }
+  .contact-heading p input{
+    height: 20%;
+  }
+  .contact button{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right:5px ;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    background: blue;
+    color: white;
+  }
 /* media Query */
 @media screen and (max-width:700px){
     .navbar-menu-toggle{
